@@ -4,10 +4,10 @@
 int main()
 {
     DigitalIn button1(p13);
-    DigitalIn button2(16);
+    DigitalIn button2(p16);
      
-     DigitalInOut Led1(23);
-     DigitalInOut led2(25);
+     DigitalInOut Led1(p23);
+     DigitalInOut led2(p25);
 
     while (1) {
       if (BUTTON1){
