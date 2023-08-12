@@ -17,8 +17,8 @@ int main()
       led1 = 0;
       led2 = 1;
       } else {
-       led1 = 0
-       led2 = 0
+       led1 = 0;
+       led2 = 0;
       }
     }
 }
